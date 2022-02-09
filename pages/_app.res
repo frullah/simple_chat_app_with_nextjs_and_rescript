@@ -1,9 +1,17 @@
-%%raw(`
-import '../styles/globals.css'
+%%raw("import '../styles/globals.css'")
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+type pageProps
+
+module PageComponent = {
+  type t = React.component<pageProps>
 }
 
-export default MyApp
-`)
+type props = {
+  @as("Component")
+  component: PageComponent.t,
+  pageProps: pageProps,
+}
+
+let default = ({component, pageProps}: props) => {
+  React.createElement(component, pageProps)
+}
