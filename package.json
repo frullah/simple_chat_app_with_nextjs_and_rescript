@@ -3,9 +3,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run rescript:build && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "rescript:build": "rescript build",
+    "rescript:start": "rescript build -w"
   },
   "dependencies": {
     "@rescript/react": "^0.10.3",
