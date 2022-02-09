@@ -1,10 +1,16 @@
 {
   "name": "simple_chat_app_with_nextjs",
   "version": "0.1.0",
-  "sources": {
-    "dir" : "pages",
-    "subdirs" : true
-  },
+  "sources": [
+    {
+      "dir": "pages",
+      "subdirs": true,
+    },
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
   "package-specs": [
     {
       "module": "es6",
