@@ -1,0 +1,17 @@
+{
+  "name": "simple_chat_app_with_nextjs",
+  "version": "0.1.0",
+  "sources": {
+    "dir" : "pages",
+    "subdirs" : true
+  },
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "reason": { "react-jsx": 3 },
+  "bs-dependencies": ["@rescript/react"]
+}
