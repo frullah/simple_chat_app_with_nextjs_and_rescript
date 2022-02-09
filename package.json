@@ -1,5 +1,5 @@
 {
-  "name": "simple_chat_app_with_nextjs",
+  "name": "simple_chat_app_with_nextjs_and_rescript",
   "private": true,
   "scripts": {
     "dev": "next dev",
