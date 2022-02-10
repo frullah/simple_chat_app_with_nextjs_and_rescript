@@ -1,5 +1,3 @@
-%%raw("import '../styles/globals.css'")
-
 type pageProps
 
 module PageComponent = {
