@@ -4,7 +4,7 @@
   "sources": [
     {
       "dir": "pages",
-      "subdirs": true,
+      "subdirs": true
     },
     {
       "dir": "src",
