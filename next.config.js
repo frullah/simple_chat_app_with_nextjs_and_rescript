@@ -3,5 +3,4 @@ module.exports = {
     ignoreDuringBuilds: true
   },
   reactStrictMode: true,
-  pageExtensions: ["bs.js"],
 }
