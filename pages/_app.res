@@ -1,3 +1,5 @@
+%%raw("import '../styles/tailwindcss.css'")
+
 type pageProps
 
 module PageComponent = {
