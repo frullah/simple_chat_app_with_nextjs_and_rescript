@@ -1,6 +1,6 @@
 module.exports = {
   content: [
-    "pages/**/*.res"
+    "{pages,components}/**/*.res"
   ],
   theme: {
     extend: {},
