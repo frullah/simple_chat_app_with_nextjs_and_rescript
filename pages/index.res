@@ -13,18 +13,5 @@ let default = () => {
           {React.string("Hello World")}
         </h1>
       </main>
-
-      <footer className={styles["footer"]}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {React.string("Powered by ")}
-          <span className={styles["logo"]}>
-            <Next.Image src="/vercel.svg" alt="Vercel Logo" width={72.0} height={16.0} />
-          </span>
-        </a>
-      </footer>
   </div>
 }
