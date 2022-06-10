@@ -5,7 +5,7 @@ This is a [Next.js](https://nextjs.org/) project written using [ReScript](https:
 First, run the rescript build with watch mode
 
 ```bash
-npx run rescript:start
+npm run rescript:start
 ```
 
 then run the next.js development server
